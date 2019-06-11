@@ -6,3 +6,6 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'curator/index.html')
+
+def detail(request):
+    return render(request, 'curator/detail.html')
